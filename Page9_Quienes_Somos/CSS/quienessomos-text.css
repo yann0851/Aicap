@@ -1,0 +1,63 @@
+.Textquienes_Somos{
+  margin: 10px;
+  width: 100vw;
+  height: 100vh;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  margin-right: 500px;
+  /* display: flex; */
+}
+
+.parag_Pagequienes_Somos{
+  text-align: justify;
+  font-size: 25px;
+  width: 40%;
+  margin-top: 15vw;
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  margin-left: 100px;
+  }
+
+
+.titlePagequienes_Somos{
+  font-size: 100px;
+  font-weight: 100;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.img_Pagequienes_Somos{
+  width: 40%;
+  float: right;
+  margin-right: 100px;
+}
+
+      
+@media screen and (max-width : 376px) {
+  .titlePagequienes_Somos{
+      font-size: 50px;
+  }
+  .Textquienes_Somos{
+      width: 100vw;
+  }
+
+  .parag_Pagequienes_Somos{
+      text-align: justify;
+      font-size: 10px;
+      width: 50%;
+      margin-top: 15vw;
+      transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  }
+
+  .img_Pagequienes_Somos{
+      width: 300px;
+  }
+
+  .parallax_quienes_Somos{
+      width: 100px;
+      transform: translateY(-5%); /* tiré de la moitié de sa propre hauteur */
+      margin-top: -50px;
+      overflow: hidden; 
+  }
+
+}

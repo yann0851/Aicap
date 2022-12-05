@@ -1,0 +1,93 @@
+.parallax
+{
+  overflow: hidden; 
+  height: 300px; 
+  width: 100%;
+}
+
+.parallax_about
+{
+  overflow: hidden; 
+  height: 450px; 
+  width: 100%;
+}
+
+.parallax_home{
+  overflow: hidden; 
+  height: 300px; 
+  width: 100%;
+  margin-top : 100px;
+}
+
+.parallax_AuPair{
+  
+  margin-top: 15vw;
+  transform: translateY(-5%); /* tiré de la moitié de sa propre hauteur */
+  margin-top: -50px;
+  margin-right: 50px;
+  float: right;
+  overflow: hidden; 
+  width: 550px;
+}
+
+.parallax_DerechosyObligaciones{
+  
+  margin-top: 15vw;
+  transform: translateY(5%); /* tiré de la moitié de sa propre hauteur */
+  margin-top: -50px;
+  margin-right: 100px;
+  float: right;
+  overflow: hidden; 
+  width: 500px;
+}
+
+.parallax_Documento_Exigido{
+  margin-top: 15vw;
+  transform: translateY(5%); /* tiré de la moitié de sa propre hauteur */
+  margin-top: -50px;
+  margin-right: 25vh;
+  float: right;
+  overflow: hidden; 
+  width: 500px;
+}
+
+.parallax_Job_Irlanda{
+
+  margin-top: 15vw;
+  transform: translateY(-5%); /* tiré de la moitié de sa propre hauteur */
+  margin-top: -50px;
+  margin-right: 50px;
+  float: right;
+  overflow: hidden; 
+  width: 550px;
+}
+
+.parallax_Practicas_Espana{
+  margin-top: 15vw;
+  transform: translateY(-5%); /* tiré de la moitié de sa propre hauteur */
+  margin-top: -50px;
+  margin-right: 50px;
+  float: right;
+  overflow: hidden; 
+  width: 550px;
+}
+
+.parallax_Documento_necesaria{
+  margin-top: 15vw;
+  transform: translateY(5%); /* tiré de la moitié de sa propre hauteur */
+  margin-top: -50px;
+  margin-right: 25vh;
+  float: right;
+  overflow: hidden; 
+  width: 500px;
+}
+
+.parallax_Caracteristicas{
+  margin-top: 15vw;
+  transform: translateY(-5%); /* tiré de la moitié de sa propre hauteur */
+  margin-top: -50px;
+  margin-right: 50px;
+  float: right;
+  overflow: hidden; 
+  width: 550px;
+}

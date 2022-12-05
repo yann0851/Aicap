@@ -1,0 +1,38 @@
+/* couleur du fond */
+@import url('http://fonts.cdnfonts.com/css/mank-sans');
+
+body, html, #scroller, section.horizontal{
+  background-color: rgb(6, 14, 61);
+  /* background-color: rgb(6, 0, 39); */
+  margin: 0px;
+  padding: 0px;
+  font-weight: 100;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  font-family: "MankSans", sans-serif;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+  }
+  /* background:  #161617; */
+  /* html, body, section.horizontal {
+    overflow: hidden;
+    background:   #010122;
+  } */
+
+
+  /* {
+    
+  overflow-y : hidden !important; 
+  } */
+
+  html.has-scroll-smooth 
+{
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;  
+}
+  

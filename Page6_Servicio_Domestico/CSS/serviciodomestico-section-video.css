@@ -1,0 +1,17 @@
+.servicio_Domestico-section-video{
+    height:30vh; 
+    width: 100vw;
+    margin-top: -10vh; 
+    margin-bottom: 15vh;
+    align-items: center; 
+    justify-content: center;
+}
+
+.servicio_Domestico-section-video-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}

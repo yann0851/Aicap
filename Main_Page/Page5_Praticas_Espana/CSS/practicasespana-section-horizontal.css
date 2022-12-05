@@ -1,0 +1,81 @@
+.Text_Practicas_Espana{
+  margin: 10px;
+  width: 100vw;
+  height: 100vh;
+  /* text-align: center; */
+  align-items: center;
+  justify-content: center;
+  margin-right: 500px;
+  /* display: flex; */
+}
+
+.parag_Page_Practicas_Espana{
+  text-align: justify;
+  font-size: 30px;
+  width: 40%;
+  margin-top: 15vw;
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  margin-left: 100px;
+  }
+  
+
+.Text_Practicas_Espana2{
+  width: 100vw;
+  height: 100vh;
+  background-color: orange;
+}
+
+.titlePage_Practicas_Espana{
+  font-size: 100px;
+  font-weight: 100;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.img_Page_Practicas_Espana{
+  width: 150%;
+  margin-right: 100px;
+}
+
+.img_Documento_Exigido{
+  width: 150%;
+}
+
+.parag_Page_Practicas_Espana2{
+  text-align: justify;
+  font-size: 30px;
+  width: 60%;
+  margin-left: 17vh;
+  margin-top: 15vw;
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+      
+@media screen and (max-width : 376px) {
+  .titlePage_Practicas_Espana{
+      font-size: 50px;
+  }
+  .Text_Practicas_Espana{
+      width: 100vw;
+  }
+
+  .parag_Page_Practicas_Espana{
+      text-align: justify;
+      font-size: 10px;
+      width: 50%;
+      margin-top: 15vw;
+      transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  }
+
+  .img_Page_Practicas_Espana{
+      width: 300px;
+  }
+
+  .parallax__Practicas_Espana{
+      width: 100px;
+      transform: translateY(-5%); /* tiré de la moitié de sa propre hauteur */
+      margin-top: -50px;
+      overflow: hidden; 
+  }
+
+}

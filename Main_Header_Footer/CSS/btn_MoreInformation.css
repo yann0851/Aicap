@@ -1,0 +1,42 @@
+/* button More Information */
+.buttonMoreInformation{
+    cursor: pointer;
+    float: right;
+    border: none;
+    height: 50px;
+    background: linear-gradient(to right, rgb(196, 195, 195) 50%, rgb(255, 255, 255) 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:all 0.35s ease;
+    padding-right: 20px;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+}
+
+.Information{
+    vertical-align: center;
+    text-align:center;
+    line-height: 50%;
+    font-size: 17px;
+}
+
+.fa-plus-circle{
+    color: rgb(255, 94, 0); 
+    vertical-align: middle; 
+    line-height: 50%; 
+    width: 50px; 
+    text-align: center; 
+    font-size: 30px;
+    transition: all 0.35s;
+}
+
+.buttonMoreInformation:hover{
+    color:rgb(0, 0, 0);
+    background-position:left bottom;
+    transition: all 0.50s;
+}
+
+.buttonMoreInformation:hover .fa-plus-circle{
+    color: rgb(0, 0, 0); 
+    transition: all 0.35s;
+}

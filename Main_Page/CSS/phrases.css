@@ -1,0 +1,119 @@
+.phrase1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  /* margin-top: 1000px; /
+  / z-index: 1000;*/
+}
+
+.text1{
+  position: absolute;
+  font-size: 50px;
+  font-weight: 100;
+  color: white;
+  /* opacity: 0;
+  animation: apparition 1s ease forwards 13s, disparition 1s ease forwards 15s; */
+}
+.text1 .letter-text1 {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.text1 .text-wrapper-text1 {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+
+
+.text2{
+  position: absolute;
+  font-size: 50px;
+  font-weight: 100;
+  color: white;
+  /* opacity: 0;
+  animation: apparition 1s ease forwards 13s, disparition 1s ease forwards 15s; */
+}
+.text2 .letter-text2 {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.text2 .text-wrapper-text2 {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+
+
+
+
+.text3{
+  position: absolute;
+  font-size: 50px;
+  font-weight: 100;
+  color: white;
+  /* opacity: 0;
+  animation: apparition 1s ease forwards 13s, disparition 1s ease forwards 15s; */
+}
+.text3 .letter-text3 {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.text3 .text-wrapper-text3 {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+
+
+.text4{
+  position: absolute;
+  font-size: 50px;
+  font-weight: 100;
+  color: white;
+  /* opacity: 0;
+  animation: apparition 1s ease forwards 13s, disparition 1s ease forwards 15s; */
+}
+.text4 .letter-text4 {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.text4 .text-wrapper-text4 {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+@keyframes apparition{
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes disparition{
+  to{
+      opacity: 0;
+  }
+}

@@ -1,0 +1,24 @@
+.appear{
+    opacity:1;
+}
+
+h2{
+    opacity: 0;
+    transition: opacity 3s;
+    font-size: 70px;
+}
+
+h1{
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+p{
+    opacity: 0;
+    transition: opacity 3s;
+}
+
+img{
+    opacity: 0;
+    transition: opacity 3s;
+}

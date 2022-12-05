@@ -1,0 +1,48 @@
+.btnForm{
+    transform: translateY(-100%);
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+.buttonForm{
+    /* box-shadow: 2px 2px 2px #4f5784; */
+    width: 500px;
+    border: none;
+    height: 50px;
+    background: linear-gradient(to right, rgb(255, 255, 255) 50%, rgb(255, 111, 0) 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition:all 0.35s ease;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.formInformation{
+    vertical-align: center;
+    line-height: 50%;
+    font-family: "MankSans";
+    font-size: 30px;
+}
+
+/* .fa-plus-circle{
+    color: rgb(10, 8, 112); 
+    vertical-align: middle; 
+    line-height: 50%; 
+    width: 50px; 
+    text-align: center; 
+    font-size: 30px;
+    transition: all 0.35s;
+} */
+
+.buttonForm:hover{
+    color:rgb(3, 3, 3);
+    background-position:left bottom;
+    transition: all 0.50s;
+}
+
+.buttonForm:hover{
+    color: rgb(0, 0, 0); 
+    transition: all 0.35s;
+}

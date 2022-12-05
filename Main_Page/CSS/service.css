@@ -1,0 +1,340 @@
+.titleService{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .titleService .imgAuPair{
+    /* background-image: url("../../img/Img_Main_Page/Service/Page_Welcome/Service/aupair.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    width: 450px;
+    height: 530px;
+    display: block;
+  position: relative;
+    /* margin: 0 auto; */
+  }
+
+  .titleService .imgAuPair::after {
+    content: "";
+    background: url("../../img/Img_Main_Page/Service/aicap-agencia-palmademallorca-au-pair.jpg");
+    background-position: center center;
+    background-size: cover;   
+    /* opacity: 1;
+    filter: opacity(0.6) drop-shadow(0 0 0 rgb(0, 0, 0)); */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  .titleService .imgJobIrlanda{
+    /* background-image: url("../../img/Img_Main_Page/Service/Page_Welcome/Service/aupair.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    /* width: 500px;
+    height: 650px; */
+    width: 450px;
+    height: 530px;
+    display: block;
+  position: relative;
+    /* margin: 0 auto; */
+  }
+
+  .titleService .imgJobIrlanda::after {
+    content: "";
+    background: url("../../img/Img_Main_Page/Service/JobIrlande.jpg");
+    background-position: center center;
+    background-size: cover;   
+    /* opacity: 1;
+    filter: opacity(0.6) drop-shadow(0 0 0 rgb(0, 0, 0)); */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  .titleService .imgConvivencia{
+    /* background-image: url("../../img/Img_Main_Page/Service/Page_Welcome/Service/aupair.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    width: 450px;
+    height: 530px;
+    display: block;
+  position: relative;
+    /* margin: 0 auto; */
+  }
+
+  .titleService .imgConvivencia::after {
+    content: "";
+    background: url("../../img/Img_Main_Page/Service/FamilleIrlandaise.png");
+    filter: contrast(90%);
+    background-position: center center;
+    background-size: cover;   
+    /* opacity: 1;
+    filter: opacity(0.6) drop-shadow(0 0 0 rgb(0, 0, 0)); */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  .titleService .imgEscolarIrlanda{
+    /* background-image: url("../../img/Img_Main_Page/Service/Page_Welcome/Service/aupair.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    width: 450px;
+    height: 530px;
+    display: block;
+  position: relative;
+    /* margin: 0 auto; */
+  }
+
+  .titleService .imgEscolarIrlanda::after {
+    content: "";
+    background: url("../../img/Img_Main_Page/Service/AnosEscolar.jpg");
+    filter: contrast(70%);
+    background-position: center center;
+    background-size: cover;
+    /* opacity: 1;
+    filter: opacity(0.6) drop-shadow(0 0 0 rgb(0, 0, 0)); */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  .titleService .imgPraticasEspana{
+    /* background-image: url("../../img/Img_Main_Page/Service/Page_Welcome/Service/aupair.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    width: 450px;
+    height: 530px;
+    display: block;
+  position: relative;
+    /* margin: 0 auto; */
+  }
+
+  .titleService .imgPraticasEspana::after {
+    content: "";
+    background: url("../../img/Img_Main_Page/Service/practicas.png");
+    filter: contrast(70%);
+    background-position: center center;
+    background-size: cover;   
+    /* opacity: 1;
+    filter: opacity(0.6) drop-shadow(0 0 0 rgb(0, 0, 0)); */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  .titleService .imgServicioDomestico{
+    /* background-image: url("../../img/Img_Main_Page/Service/Page_Welcome/Service/aupair.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    width: 450px;
+    height: 530px;
+    display: block;
+  position: relative;
+    /* margin: 0 auto; */
+  }
+
+  .titleService .imgServicioDomestico::after {
+    content: "";
+    background: url("../../img/Img_Main_Page/Service/servicio.png");
+    background-position: center center;
+    background-size: cover;   
+    /* opacity: 1;
+    filter: opacity(0.6) drop-shadow(0 0 0 rgb(0, 0, 0)); */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  .titleService .imgPraticasAicap{
+    /* background-image: url("../../img/Img_Main_Page/Service/Page_Welcome/Service/aupair.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    width: 450px;
+    height: 530px;
+    display: block;
+  position: relative;
+    /* margin: 0 auto; */
+  }
+
+  .titleService .imgPraticasAicap::after {
+    content: "";
+    background: url("../../img/Aicap_Company/AicapHomeLogoBleu.png");
+    background-position: center center;
+    background-size: cover;   
+    /* opacity: 1;
+    filter: opacity(0.6) drop-shadow(0 0 0 rgb(0, 0, 0)); */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  .textService{
+    width: 450px;
+    padding-top: 9em;
+    font-size: 15px;
+  }
+
+  .titleAupair{
+    font-weight: 100;
+    font-size: 65px;
+  }
+
+  /* .paragrapheService{
+    font-weight: 100;
+    font-size: 30px;
+  } */
+
+/* body { 
+  font-family: "Signika Negative", sans-serif; 
+  font-weight: 300;
+  
+  margin: 0;
+  padding: 0; 
+} */
+
+section.horizontal .service {
+    position: relative;
+    padding: 150px 80px;
+    flex: 0 0 500px;
+    height: calc(100vh - 300px);
+    display: flex;
+    align-items: center;
+    line-height: 1.7;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* border-right: 1px solid rgba(0, 0, 0, 0.06); */
+    z-index: 1;
+}
+
+section.horizontal .service:before {
+    position: absolute;
+    font-size: 100px;
+    opacity: .13;
+    z-index: -1;
+    -webkit-transform: translate(-30px, -50px);
+    transform: translate(-30px, -50px);
+    line-height: 1;
+    z-index: 1;  
+}
+
+/* .titleService{
+  width: auto;
+} */
+
+.serviceTitle{
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 150px;
+    font-size: 100px;
+    font-weight: 100;
+    font-family: "MankSans";
+    /* padding: 50px; */
+  }
+
+#panel { /* chnager taille texte + remonter texte*/
+    position: relative;
+    padding: 0px 80px;
+    flex: 0 0 500px;
+    transform: translateY(20%);
+    text-align: justify;
+    /* margin-top: 200px; */
+    line-height: 1.5;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 10s;
+  }
+
+.titleParagService{
+  text-align: center; 
+  font-size: 24px;
+  font-weight: 100;
+}
+
+  #panel .ParagService{
+    /* letter-spacing: 2px; */
+    font-weight: 100;
+    font-size: 18px;
+  }
+
+  .hidden {
+    display: none;
+  }
+  
+  /* .visuallyhidden {
+    opacity: 0;
+  } */
+
+  .appearPanel{
+    animation: appearPanel 1.5s ease forwards, opacityPanel 4s ease forwards;
+  }
+
+  .vanish{
+    animation: vanish 1s ease forwards, opacityVanish 1s ease forwards;
+  }
+
+  /* décalage et apparition div */
+  @keyframes appearPanel{
+    from{
+      margin-left: -660px;
+    }
+    to{
+      margin-right: 50px;
+    }
+  }
+
+  @keyframes opacityPanel{
+    from{
+      opacity: 0;
+    }
+    to{
+      opacity: 1;
+    }
+  }
+
+    /* décalage et disparition div */
+  @keyframes vanish{
+    from{
+      margin-right: 50px;
+    }
+    to{
+      margin-left: -660px;
+    }
+  }
+
+  @keyframes opacityVanish{
+    from{
+      opacity: 1;
+    }
+    to{
+      opacity: 0;
+    }
+  }

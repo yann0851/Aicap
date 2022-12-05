@@ -1,0 +1,129 @@
+/* Accordion */
+
+.aupair-item {
+    text-align: center;
+    width: 5%;
+    float: left;
+    background-color: #000000;
+    border-right: 1px solid #7f8c8d;
+    border-left: 1px solid #7f8c8d;
+    height: 500px;
+    cursor: pointer;
+    transition: all 1s;
+    color: white;
+}
+
+.aupair-item:nth-child(3) {
+    border-radius: 8px 0px 0px 8px;
+}
+
+.aupair-item:nth-child(9){
+    border-radius: 0px 8px 8px 0px;
+}
+
+.titlePairTab{
+    margin-top: 230px;
+}
+
+.aupair-item:hover {
+    background-color: #434a50;
+    transition: all 0.5s;
+}
+
+
+.aupair-active {
+    background-color: #434a50;
+    color: #ecf0f1;
+}
+
+.aupair-item.aupair-active:nth-child(9){
+    border-radius: 0px 0px 0px 0px;
+}
+
+.aupair-info {
+    width: 0;
+    float: left;
+    background-color: #ffffffd8;
+    color: #222;
+    height: 500px;
+    display: none;
+}
+
+.aupair-info1{
+    width: 400px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 50px;
+    margin-top: -10vh;
+    margin-left: 10vh;
+    transform: translateY(50%);
+}
+
+.aupair-section-accordion-title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.aupair-info2{
+    width: 450px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 50px;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    transform: translateY(50%);
+}
+
+.aupair-info3{
+    width: 400px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 50px;
+    margin-top: 3vh;
+    margin-left: 20vh;
+    transform: translateY(50%);
+}
+
+.aupair-info4{
+    width: 400px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 50px;
+    margin-top: 5vh;
+    margin-left: 20vh;
+    transform: translateY(50%);
+}
+
+.Agencia{
+    margin-right: 10px;
+    float: right;
+    width: 700px;
+    /* margin-top: -17vw; */
+    transform: translateY(-65%);
+}
+
+.Avions{
+    
+    width: 550px;
+    margin-right: 100px;
+    float: right;
+    /* margin-top: -20vw; */
+    transform: translateY(-65%);
+}
+
+.Estudios{
+    width: 380px;
+    margin-right: 125px;
+    float: right;
+    margin-top: -2vw;
+    transform: translateY(-60%);
+}
+
+.Seguro{
+    width: 550px;
+    margin-right: 100px;
+    float: right;
+    margin-top: -2vw;
+    transform: translateY(-60%);
+}

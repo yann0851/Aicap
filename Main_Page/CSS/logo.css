@@ -1,0 +1,222 @@
+/* .preloader{
+    background:  #010020 url(../video/Aicap2.gif) no-repeat center center;
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top:0;
+    bottom:0;
+    opacity: 1;
+    transition: all 1s;
+} */
+
+/* Loader du début */
+.preloader{
+  background-color: rgb(6, 0, 39);
+  /* background:  #010020; */
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  z-index: 100;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top:0;
+  bottom:0;
+  /* overflow-y: hidden;  */
+}
+
+/* Bloquer le scroll */
+.BlockBar{
+  overflow: hidden;
+  height: 100%;
+}
+
+.barUnlock{
+  overflow-y: scroll;
+}
+
+/* 
+body{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  background-color: rgb(6, 0, 39);
+} */
+
+
+/* @keyframes disparition{
+  to{
+      display: none;
+  }
+} */
+
+#logo{
+  position: absolute;
+  animation: lever 2s cubic-bezier(.58,-0.03,.47,1.41) forwards 2.5s;
+  width: 800px;
+}
+
+#logo path:nth-child(1){
+  stroke-dasharray: 1500px;
+  stroke-dashoffset: 1500px; 
+  animation: line-anim 1.5s ease-in-out forwards 0.3s, fill 1s cubic-bezier(.2,.4,.44,1.35) forwards 1.5s, test 0.5s cubic-bezier(.2,.4,.44,1.35) forwards 6.5s;
+}
+#logo path:nth-child(2){
+  opacity: 0;
+  transform: translateX(-200px);
+  stroke-dasharray: 500px;
+  stroke-dashoffset: 500px;
+  animation: translateGauche 1.5s ease-in-out forwards 1.5s, fill 2s cubic-bezier(.2,.4,.44,1.35) forwards 1.8s, colorLetter 2s cubic-bezier(.2,.4,.44,1.35) forwards 1.5s, test 0.5s cubic-bezier(.2,.4,.44,1.35) forwards 6.6s;
+  /* animation: line-anim 2s cubic-bezier(.2,.4,.44,1.35) forwards 0.6s, colorLetter 2s cubic-bezier(.2,.4,.44,1.35) forwards 4.8s;  */
+}
+#logo path:nth-child(3){
+  opacity: 0;
+  transform: translateX(-200px);
+  stroke-dasharray: 500px;
+  stroke-dashoffset: 500px;
+  animation: translateHaut 1s cubic-bezier(.2,.4,.44,1.35) forwards 5s, colorLetter 2s cubic-bezier(.2,.4,.44,1.35) forwards 4s, test 0.5s cubic-bezier(.2,.4,.44,1.35) forwards 6.6s;
+}
+#logo path:nth-child(4){
+  opacity: 0;
+  transform: translateX(-300px);
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  animation: translateGauche 1.5s ease-in-out forwards 1.5s, fill 1s cubic-bezier(.2,.4,.44,1.35) forwards 1.8s, colorLetter 2s cubic-bezier(.2,.4,.44,1.35) forwards 1.5s, test 0.5s cubic-bezier(.2,.4,.44,1.35) forwards 6.7s;
+}
+#logo path:nth-child(5){
+  opacity: 0;
+  transform: translateX(-450px);
+  stroke-dasharray: 1000px;
+  stroke-dashoffset: 1000px;
+  animation: translateGauche 1.5s ease-in-out forwards 1.5s, fill 1s cubic-bezier(.2,.4,.44,1.35) forwards 1.8s, test 0.5s cubic-bezier(.2,.4,.44,1.35) forwards 6.8s;
+}
+#logo path:nth-child(6){
+  opacity: 0;
+  transform: translateX(-650px);
+  stroke-dasharray: 2000px;
+  stroke-dashoffset: 2000px;
+  animation: translateGauche 1.5s ease-in-out forwards 1.5s, fill 1s cubic-bezier(.2,.4,.44,1.35) forwards 1.8s, colorLetter 1s cubic-bezier(.2,.4,.44,1.35) forwards 1.5s, test 0.5s cubic-bezier(.2,.4,.44,1.35) forwards 6.9s;
+}
+
+@keyframes translateGauche{
+  from{
+      opacity: 0;
+  }
+  to{
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes translateHaut{
+  from{
+      transform: translateY(-200px);
+      opacity: 0;
+  }
+  to{
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@keyframes line-anim{
+  to{
+      stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fill{
+  from{
+      fill: transparent;
+  }
+  to{
+      fill: #FF4C00;
+  }
+}
+
+@keyframes colorLetter{
+  
+  to{
+      fill: white;
+      stroke: white;
+  }
+}
+
+@keyframes lever{
+  to{
+      transform: translateY(-100px);
+      width: 600px;
+  }
+}
+
+.ml13{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  width: 100%;
+  font-weight: 100;
+  margin-top: 250px;
+  font-size: 100px;
+  color: white;
+  font-family: "MankSans", sans-serif;
+  /* opacity: 0; */
+  /* animation: text 2s cubic-bezier(.2,.4,.44,1.35) forwards 4.8s; */
+}
+
+.ml13 .letter{
+  display: inline-block;
+  line-height: 1em;
+}
+
+@keyframes text{
+  to{
+      opacity: 1;
+  }
+}
+
+@keyframes test {
+  to{
+      /* transform: translateY(-100px); */
+      opacity: 0;
+      duration: 1200;
+  }
+}
+
+.animationMessage{
+  opacity: 0;
+  /* transform: translateY(-950px); /* faire monter */
+  transition: all 2s;
+}
+
+.imgAicap1 img {
+  width: 70%;
+  height: 60%;
+  margin: 150px;
+  z-index:1;
+  margin: auto;
+  top: 0; 
+  right: 0;
+  bottom: 0; 
+  left: 0;
+  
+}
+
+.imgAicap1{
+  width: 100vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  justify-content: center;
+}
+

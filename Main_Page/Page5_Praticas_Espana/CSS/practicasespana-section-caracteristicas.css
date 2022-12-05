@@ -1,0 +1,61 @@
+.Text_Caracteristicas{
+    margin: 10px;
+    width: 100vw;
+    height: 100vh;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    margin-right: 500px;
+    /* display: flex; */
+  }
+  
+  .parag_Page_Caracteristicas{
+    text-align: justify;
+    font-size: 20px;
+    width: 50%;
+    margin-top: 15vw;
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    margin-left: 100px;
+    }
+  
+  .titlePage_Caracteristicas{
+    font-size: 100px;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  .img_Page_Caracteristicas{
+    width: 150%;
+    margin-right: 100px;
+  }
+  
+        
+  @media screen and (max-width : 376px) {
+    .titlePage_Caracteristicas{
+        font-size: 50px;
+    }
+    .Text_Caracteristicas{
+        width: 100vw;
+    }
+  
+    .parag_Page_Caracteristicas{
+        text-align: justify;
+        font-size: 10px;
+        width: 50%;
+        margin-top: 15vw;
+        transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+    }
+  
+    .img_Page_Caracteristicas{
+        width: 300px;
+    }
+  
+    .parallax__Caracteristicas{
+        width: 100px;
+        transform: translateY(-5%); /* tiré de la moitié de sa propre hauteur */
+        margin-top: -50px;
+        overflow: hidden; 
+    }
+  
+  }

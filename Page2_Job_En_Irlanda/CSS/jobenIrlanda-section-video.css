@@ -1,0 +1,17 @@
+.job_Irlanda-section-video{
+    height:60vh; 
+    width: 100vw;
+    margin-top: -40vh; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.job_Irlanda-section-video-wrapper{
+    display: grid;
+    grid-template-columns: repeat²(2, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows:  minmax(100px, auto);
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}

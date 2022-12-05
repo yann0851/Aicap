@@ -1,0 +1,53 @@
+/* Image home */
+.home{
+    float: right;
+    width: 100vw;
+    z-index:-1;
+    /* transform: rotateY(-22deg); */
+  }
+  
+  /* paramètre pour section about */
+  .about{
+    margin-bottom: -200px;
+    width: 100vw;
+  }
+  
+  section.sectionAbout{
+    width: 100vw;
+    height: 170vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .aboutTitle{
+    text-align: left;
+    margin: 100px;
+    margin-top: 50px;
+    font-size: 120px;
+    font-weight: 100;
+    font-family: "MankSans";
+  }
+  
+  .aboutHome{
+    height: 500px; 
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    justify-content: center;
+    z-index: -1;
+    /* perspective: 500px; */
+  }
+  
+  .aboutText{
+    /* line-height: 50px; */
+    /* width: 500px; */
+    padding: 1em;
+    margin-top: -80px;
+    left: 100px;
+    /* word-wrap: break-word; */
+    font-size: 25px;
+    z-index: 3;
+  }
+
+ 

@@ -1,0 +1,10 @@
+<section>
+    <div class="Text_Caracteristicas">
+    <div id="navOpiniones" data-scroll data-scroll-call="navOpiniones" data-scroll-repeat="true"></div>
+        <h3 class="titlePage_Caracteristicas" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">Características</h3>
+        <div class="parallax_Caracteristicas"><img class="img_Page_Caracteristicas" data-scroll data-scroll-class="appear" data-scroll-direction="horizontal" data-scroll-speed="2" src="../img/Img_Au_Pair/horizontal/famili-manos-1100x500-1.jpg" alt=""></div>
+        <p class="parag_Page_Caracteristicas" data-scroll data-scroll-class="appear">
+            El lugar de trabajo podrá ser cualquier zona de España, siendo Mallorca, Menorca y Málaga los principales lugares de colocación. El trabajo a realizar puede ser a tiempo parcial o completo, por norma general la jornada laboral será de cuarenta horas semanales, con uno o dos días libres. En caso de que se trabajen más horas, el establecimiento compensará éstas con más tiempo libre o dinero de bolsillo extra. El trabajo se desarrollará en cualquiera de los diferentes departamentos, dependiendo del nivel de español del practicante y la necesidad de la empresa: recepción, conserjería, restaurante, bar, cocina, habitaciones… El criterio de colocación del joven en prácticas lo llevará a cabo la empresa contratante. No es necesaria experiencia previa, pero siempre se valorará a la hora de la colocación. La persona en prácticas deberá respetar las normas del hotel y hacer todo lo que esté en su mano para realizar satisfactoriamente el trabajo que se le asigne. Por otra parte, la empresa ofrecerá alojamiento y comida los siete días de la semana, pensión completa y una gratificación semanal o mensual, que estará reflejada en el acuerdo.
+        </p>
+    </div>
+</section>

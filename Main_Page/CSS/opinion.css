@@ -1,0 +1,93 @@
+section.horizontal .item {
+    position: relative;
+    padding: 100px 0px;
+    /* flex: 0 0 0px; */
+    height: calc(100vh - 300px);
+    display: flex;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* border-right: 1px solid rgba(0, 0, 0, 0.06); */
+    /* background-color: transparent; */
+}
+
+section.horizontal .item:before {
+    position: absolute;
+    opacity: .13;  
+    z-index: -1;
+    -webkit-transform: translate(-30px, -50px);
+    transform: translate(-30px, -50px);
+}
+
+.opinionTitle{
+    margin-top: -30px;
+    margin-left: 100px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 120px;
+    font-family: "MankSans";
+    z-index: 2;
+}
+
+.itemOpinion{
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    display: flex;
+    color: black;
+    cursor: pointer;
+    z-index:2;
+}
+/* .itemOpinion:hover .imgOpinion{
+    transform: translate(-95%, -60%);
+    transition: transform 0.9s;
+} */
+
+.imgOpinionMove{
+    transform: translate(-110%, -87%);
+    transition: transform 0.9s;
+}
+
+.imgOpinion{
+    width: 105px;
+    transition: all 0.9s;
+    z-index:1;
+}
+
+/* .imgOpinion:hover .HiddenText{
+    
+    
+} */
+
+.textOpinionHidden{
+    /* display:none; */
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 390px;
+    height: auto;
+    transform: translateX(0%);
+    text-align: center;
+    
+    transition: all 1s;
+}
+
+.paragrapheOpinionHidden{
+    margin: 39px;
+    text-align: justify;
+}
+
+.textOpinionVisibilityNone{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.textOpinionVisibility{
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(-40%);
+    transition: all 1s;
+}

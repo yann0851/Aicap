@@ -1,0 +1,52 @@
+.aupair-entete{
+    background: rgb(255, 255, 255); 
+    width:1200px; 
+    height: 500px; 
+    margin-left: auto;
+    margin-right: auto; 
+    opacity:0;
+    transform: translateY(0%);
+    /* margin-top: -2px; */
+    color: black;
+    animation: apparition_monter 1s ease forwards 2s;
+}
+
+.aupair-info-general-titre{
+    font-size: 40px; 
+    text-align: center;  
+    text-decoration: underline solid black 1px;
+}
+
+.aupair-info-general-text{
+    font-size: 25px; 
+    text-align: center; 
+    margin-top: 5%;
+    padding: 20px;
+}
+
+@keyframes apparition_monter {
+    to{
+        opacity:1;
+        transform: translateY(-5%);
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .aupair-entete{
+        width:90%; 
+        height: 400px; 
+        color: black;
+    }
+    .aupair-info-general-titre{
+        font-size: 20px; 
+        text-align: center;  
+        text-decoration: underline solid black 1px;
+    }
+    
+    .aupair-info-general-text{
+        font-size: 15px; 
+        text-align: center; 
+        margin-top: 0%;
+        padding: 20px;
+    }
+}
